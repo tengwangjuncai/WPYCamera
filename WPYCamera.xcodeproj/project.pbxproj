@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3075118721CA5CC100A34BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075118621CA5CC100A34BA7 /* AppDelegate.swift */; };
+		3075118921CA5CC100A34BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075118821CA5CC100A34BA7 /* ViewController.swift */; };
+		3075118C21CA5CC100A34BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3075118A21CA5CC100A34BA7 /* Main.storyboard */; };
+		3075118E21CA5CC500A34BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3075118D21CA5CC500A34BA7 /* Assets.xcassets */; };
+		3075119121CA5CC500A34BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3075118F21CA5CC500A34BA7 /* LaunchScreen.storyboard */; };
+		307511A421CA601400A34BA7 /* photograph_Select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075119B21CA601400A34BA7 /* photograph_Select@3x.png */; };
+		307511A521CA601400A34BA7 /* photograph_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075119C21CA601400A34BA7 /* photograph_Select@2x.png */; };
+		307511A621CA601400A34BA7 /* 闪光灯-关.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075119D21CA601400A34BA7 /* 闪光灯-关.png */; };
+		307511A721CA601400A34BA7 /* photograph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075119E21CA601400A34BA7 /* photograph@3x.png */; };
+		307511A821CA601400A34BA7 /* photograph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3075119F21CA601400A34BA7 /* photograph@2x.png */; };
+		307511A921CA601400A34BA7 /* 闪光灯-开.png in Resources */ = {isa = PBXBuildFile; fileRef = 307511A021CA601400A34BA7 /* 闪光灯-开.png */; };
+		307511AA21CA601400A34BA7 /* icon-摄像头切换-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 307511A121CA601400A34BA7 /* icon-摄像头切换-3.png */; };
+		307511AB21CA601400A34BA7 /* Camera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307511A221CA601400A34BA7 /* Camera.xib */; };
+		307511AC21CA601400A34BA7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307511A321CA601400A34BA7 /* Camera.swift */; };
+		307511E721CB662000A34BA7 /* MyCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 307511E421CB661F00A34BA7 /* MyCamera.m */; };
+		307511E821CB662000A34BA7 /* MyCamera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307511E521CB661F00A34BA7 /* MyCamera.xib */; };
+		307511F121CB68CE00A34BA7 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 307511EB21CB68CE00A34BA7 /* SDPhotoBrowser.m */; };
+		307511F221CB68CE00A34BA7 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307511EC21CB68CE00A34BA7 /* SDWaitingView.m */; };
+		307511F321CB68CE00A34BA7 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307511ED21CB68CE00A34BA7 /* SDBrowserImageView.m */; };
+		DFF6477B46F411C7EA2C940E /* Pods_WPYCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE7F2370990EA4884BF9C2 /* Pods_WPYCamera.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AE7F2370990EA4884BF9C2 /* Pods_WPYCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPYCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3075118321CA5CC100A34BA7 /* WPYCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPYCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3075118621CA5CC100A34BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3075118821CA5CC100A34BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3075118B21CA5CC100A34BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3075118D21CA5CC500A34BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3075119021CA5CC500A34BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3075119221CA5CC500A34BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3075119B21CA601400A34BA7 /* photograph_Select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph_Select@3x.png"; sourceTree = "<group>"; };
+		3075119C21CA601400A34BA7 /* photograph_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph_Select@2x.png"; sourceTree = "<group>"; };
+		3075119D21CA601400A34BA7 /* 闪光灯-关.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪光灯-关.png"; sourceTree = "<group>"; };
+		3075119E21CA601400A34BA7 /* photograph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@3x.png"; sourceTree = "<group>"; };
+		3075119F21CA601400A34BA7 /* photograph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@2x.png"; sourceTree = "<group>"; };
+		307511A021CA601400A34BA7 /* 闪光灯-开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪光灯-开.png"; sourceTree = "<group>"; };
+		307511A121CA601400A34BA7 /* icon-摄像头切换-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-摄像头切换-3.png"; sourceTree = "<group>"; };
+		307511A221CA601400A34BA7 /* Camera.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Camera.xib; sourceTree = "<group>"; };
+		307511A321CA601400A34BA7 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		307511E321CB661E00A34BA7 /* WPYCamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPYCamera-Bridging-Header.h"; sourceTree = "<group>"; };
+		307511E421CB661F00A34BA7 /* MyCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCamera.m; sourceTree = "<group>"; };
+		307511E521CB661F00A34BA7 /* MyCamera.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCamera.xib; sourceTree = "<group>"; };
+		307511E621CB661F00A34BA7 /* MyCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCamera.h; sourceTree = "<group>"; };
+		307511EA21CB68CE00A34BA7 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		307511EB21CB68CE00A34BA7 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		307511EC21CB68CE00A34BA7 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		307511ED21CB68CE00A34BA7 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		307511EE21CB68CE00A34BA7 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		307511EF21CB68CE00A34BA7 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		307511F021CB68CE00A34BA7 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		52F3B248419CB0EAAA74CC88 /* Pods-WPYCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPYCamera.debug.xcconfig"; path = "Target Support Files/Pods-WPYCamera/Pods-WPYCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB72CE2368AD294B2BC6D78 /* Pods-WPYCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPYCamera.release.xcconfig"; path = "Target Support Files/Pods-WPYCamera/Pods-WPYCamera.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3075118021CA5CC100A34BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF6477B46F411C7EA2C940E /* Pods_WPYCamera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12BA9BD01A3CD3890752BB5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18AE7F2370990EA4884BF9C2 /* Pods_WPYCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3075117A21CA5CC100A34BA7 = {
+			isa = PBXGroup;
+			children = (
+				3075118521CA5CC100A34BA7 /* WPYCamera */,
+				3075118421CA5CC100A34BA7 /* Products */,
+				7C2B6DB32292EE3573B5CAA5 /* Pods */,
+				12BA9BD01A3CD3890752BB5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3075118421CA5CC100A34BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3075118321CA5CC100A34BA7 /* WPYCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3075118521CA5CC100A34BA7 /* WPYCamera */ = {
+			isa = PBXGroup;
+			children = (
+				3075119921CA5FC500A34BA7 /* OC-Camera */,
+				3075119821CA5FB600A34BA7 /* Swift-Camera */,
+				3075118621CA5CC100A34BA7 /* AppDelegate.swift */,
+				3075118821CA5CC100A34BA7 /* ViewController.swift */,
+				3075118A21CA5CC100A34BA7 /* Main.storyboard */,
+				3075118D21CA5CC500A34BA7 /* Assets.xcassets */,
+				3075118F21CA5CC500A34BA7 /* LaunchScreen.storyboard */,
+				3075119221CA5CC500A34BA7 /* Info.plist */,
+			);
+			path = WPYCamera;
+			sourceTree = "<group>";
+		};
+		3075119821CA5FB600A34BA7 /* Swift-Camera */ = {
+			isa = PBXGroup;
+			children = (
+				307511A321CA601400A34BA7 /* Camera.swift */,
+				307511A221CA601400A34BA7 /* Camera.xib */,
+				3075119A21CA601400A34BA7 /* src */,
+			);
+			path = "Swift-Camera";
+			sourceTree = "<group>";
+		};
+		3075119921CA5FC500A34BA7 /* OC-Camera */ = {
+			isa = PBXGroup;
+			children = (
+				307511E921CB68CE00A34BA7 /* SDPhotoBrowser */,
+				307511E621CB661F00A34BA7 /* MyCamera.h */,
+				307511E421CB661F00A34BA7 /* MyCamera.m */,
+				307511E521CB661F00A34BA7 /* MyCamera.xib */,
+				307511E321CB661E00A34BA7 /* WPYCamera-Bridging-Header.h */,
+			);
+			path = "OC-Camera";
+			sourceTree = "<group>";
+		};
+		3075119A21CA601400A34BA7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3075119B21CA601400A34BA7 /* photograph_Select@3x.png */,
+				3075119C21CA601400A34BA7 /* photograph_Select@2x.png */,
+				3075119D21CA601400A34BA7 /* 闪光灯-关.png */,
+				3075119E21CA601400A34BA7 /* photograph@3x.png */,
+				3075119F21CA601400A34BA7 /* photograph@2x.png */,
+				307511A021CA601400A34BA7 /* 闪光灯-开.png */,
+				307511A121CA601400A34BA7 /* icon-摄像头切换-3.png */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		307511E921CB68CE00A34BA7 /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				307511EA21CB68CE00A34BA7 /* SDPhotoBrowserConfig.h */,
+				307511EB21CB68CE00A34BA7 /* SDPhotoBrowser.m */,
+				307511EC21CB68CE00A34BA7 /* SDWaitingView.m */,
+				307511ED21CB68CE00A34BA7 /* SDBrowserImageView.m */,
+				307511EE21CB68CE00A34BA7 /* SDWaitingView.h */,
+				307511EF21CB68CE00A34BA7 /* SDPhotoBrowser.h */,
+				307511F021CB68CE00A34BA7 /* SDBrowserImageView.h */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		7C2B6DB32292EE3573B5CAA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F3B248419CB0EAAA74CC88 /* Pods-WPYCamera.debug.xcconfig */,
+				5AB72CE2368AD294B2BC6D78 /* Pods-WPYCamera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3075118221CA5CC100A34BA7 /* WPYCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3075119521CA5CC500A34BA7 /* Build configuration list for PBXNativeTarget "WPYCamera" */;
+			buildPhases = (
+				DB9DFE505D0711E968230BB3 /* [CP] Check Pods Manifest.lock */,
+				3075117F21CA5CC100A34BA7 /* Sources */,
+				3075118021CA5CC100A34BA7 /* Frameworks */,
+				3075118121CA5CC100A34BA7 /* Resources */,
+				F49D5B38FBBC9B4C23F24E73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPYCamera;
+			productName = WPYCamera;
+			productReference = 3075118321CA5CC100A34BA7 /* WPYCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3075117B21CA5CC100A34BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王鹏宇";
+				TargetAttributes = {
+					3075118221CA5CC100A34BA7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 3075117E21CA5CC100A34BA7 /* Build configuration list for PBXProject "WPYCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3075117A21CA5CC100A34BA7;
+			productRefGroup = 3075118421CA5CC100A34BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3075118221CA5CC100A34BA7 /* WPYCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3075118121CA5CC100A34BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307511E821CB662000A34BA7 /* MyCamera.xib in Resources */,
+				307511A621CA601400A34BA7 /* 闪光灯-关.png in Resources */,
+				3075119121CA5CC500A34BA7 /* LaunchScreen.storyboard in Resources */,
+				307511A821CA601400A34BA7 /* photograph@2x.png in Resources */,
+				307511A921CA601400A34BA7 /* 闪光灯-开.png in Resources */,
+				307511A721CA601400A34BA7 /* photograph@3x.png in Resources */,
+				307511AA21CA601400A34BA7 /* icon-摄像头切换-3.png in Resources */,
+				307511AB21CA601400A34BA7 /* Camera.xib in Resources */,
+				307511A421CA601400A34BA7 /* photograph_Select@3x.png in Resources */,
+				3075118E21CA5CC500A34BA7 /* Assets.xcassets in Resources */,
+				3075118C21CA5CC100A34BA7 /* Main.storyboard in Resources */,
+				307511A521CA601400A34BA7 /* photograph_Select@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB9DFE505D0711E968230BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPYCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49D5B38FBBC9B4C23F24E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WPYCamera/Pods-WPYCamera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WPYCamera/Pods-WPYCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3075117F21CA5CC100A34BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307511F121CB68CE00A34BA7 /* SDPhotoBrowser.m in Sources */,
+				307511E721CB662000A34BA7 /* MyCamera.m in Sources */,
+				307511AC21CA601400A34BA7 /* Camera.swift in Sources */,
+				3075118921CA5CC100A34BA7 /* ViewController.swift in Sources */,
+				307511F321CB68CE00A34BA7 /* SDBrowserImageView.m in Sources */,
+				3075118721CA5CC100A34BA7 /* AppDelegate.swift in Sources */,
+				307511F221CB68CE00A34BA7 /* SDWaitingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3075118A21CA5CC100A34BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3075118B21CA5CC100A34BA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3075118F21CA5CC500A34BA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3075119021CA5CC500A34BA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3075119321CA5CC500A34BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3075119421CA5CC500A34BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3075119621CA5CC500A34BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F3B248419CB0EAAA74CC88 /* Pods-WPYCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U7NTNRMAV;
+				INFOPLIST_FILE = WPYCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WPY.WPYCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WPYCamera/OC-Camera/WPYCamera-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3075119721CA5CC500A34BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB72CE2368AD294B2BC6D78 /* Pods-WPYCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U7NTNRMAV;
+				INFOPLIST_FILE = WPYCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WPY.WPYCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WPYCamera/OC-Camera/WPYCamera-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3075117E21CA5CC100A34BA7 /* Build configuration list for PBXProject "WPYCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3075119321CA5CC500A34BA7 /* Debug */,
+				3075119421CA5CC500A34BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3075119521CA5CC500A34BA7 /* Build configuration list for PBXNativeTarget "WPYCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3075119621CA5CC500A34BA7 /* Debug */,
+				3075119721CA5CC500A34BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3075117B21CA5CC100A34BA7 /* Project object */;
+}
